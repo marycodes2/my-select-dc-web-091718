@@ -5,8 +5,6 @@ def my_select(collection)
     if yield(collection[i]) == true
       print collection[i]
       new_array << collection[i]
-    else
-      print "nope"
     end 
     i += 1
   end
