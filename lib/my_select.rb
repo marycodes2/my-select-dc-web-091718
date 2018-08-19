@@ -1,7 +1,8 @@
 def my_select(collection)
   i = 0 
   while i < collection
-    yield(collection[i])
+    if yield(collection[i]) == true
+      print collection[i]
   end
 end 
 
