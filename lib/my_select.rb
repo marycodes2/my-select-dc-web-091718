@@ -1,5 +1,5 @@
 def my_select(collection)
- yield(collection.select)
+ yield(collection)
 end 
 
 nums = [1, 2, 3, 4, 5]
